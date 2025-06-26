@@ -6,7 +6,7 @@ import streamlit as st
 # Load environment variables
 load_dotenv()
 
-# Initialize the model (you must have OpenAI key set in your .env)
+# Initialize the model, you must have OpenAI key set in your .env I used OpenRouter
 model = ChatOpenAI(model='meta-llama/llama-3.3-70b-instruct')
 
 # Streamlit UI
