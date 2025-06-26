@@ -5,7 +5,7 @@ chat_template = ChatPromptTemplate([
     ('human', 'Explain in simple terms, what is {topic}')
 ])
 
-prompt = chat_template.invoke({'domain':'cricket','topic':'Dusra'})
+prompt = chat_template.invoke({'domain':'langchain','topic':'prompts'})
 
 print(prompt)
 
